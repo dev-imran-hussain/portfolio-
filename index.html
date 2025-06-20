@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <title>IMRAN HUSSAIN /Portfolio</title>
+
+  <meta name="description" content="Crafting code with imagination and precision. Portfolio of a full stack software developer." />
+
+  <meta property="og:title" content="Your Name Here - Software Developer Portfolio" />
+
+  <meta property="og:description" content="Crafting code with imagination and precision. Portfolio of a full stack software developer." />
+
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="myImage.jpeg" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+ <link rel="stylesheet" href="portfolio.css">
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+  <nav aria-label="Main Navigation">
+
+    <a href="#hero">Home</a>
+
+    <a href="#about">About</a>
+
+    <a href="#techstack">Skills</a>
+
+    <a href="#projects">Projects</a>
+
+    <a href="#resume">Resume</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+
+
+  <!-- HERO SECTION -->
+
+  <section id="hero" role="banner" aria-label="Introduction">
+
+    <canvas id="stars"></canvas>
+
+    <canvas id="stars2"></canvas>
+
+    <canvas id="stars3"></canvas>
+
+    <h1>IMRAN HUSSAIN</h1>
+
+    <p>"Crafting code with imagination and precision."</p>
+
+    <div id="roles" aria-live="polite" aria-atomic="true" aria-relevant="text"></div>
+
+    <div>
+
+      <a href="#projects" class="btn" role="button">View Projects</a>
+
+      <a href="#contact" class="btn btn-primary" role="button">Contact Me</a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ABOUT ME -->
+
+  <section id="about" aria-label="About Me">
+
+    <img src="myImage.jpg" alt="my photo" />
+
+    <div id="about-text">
+
+      <p>
+
+        I am a passionate software developer with a journey that began from a curiosity about how things work in the digital world.
+
+        Over the years, I have honed my skills crafting elegant solutions that blend imagination and precision.
+
+      </p>
+
+      <p>
+
+        My passion for code is fueled by continuous learning and problem solving.
+
+        I thrive in building scalable and high-performance applications that push the boundaries of technology.
+
+      </p>
+
+      <p>
+
+        With a growth mindset and a love for tech minimalism, I enjoy transforming complex challenges into sleek and futuristic user experiences.
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- TECH STACK / SKILLS -->
+
+  <section id="techstack" aria-label="Tech Stack and Skills">
+
+    <h2>Tech Stack</h2>
+
+    <div class="tech-category" tabindex="0" aria-label="Frontend Skills">
+
+      <h3>Frontend</h3>
+
+      <ul class="skill-list">
+
+        <li class="skill-item">React</li>
+
+        <li class="skill-item">Next.js</li>
+
+        <li class="skill-item">Tailwind CSS</li>
+
+        <li class="skill-item">TypeScript</li>
+
+        <li class="skill-item">HTML5</li>
+
+        <li class="skill-item">CSS3</li>
+
+        <li class="skill-item">JavaScript (ES6+)</li>
+
+      </ul>
+
+    </div>
+
+    <div class="tech-category" tabindex="0" aria-label="Backend Skills">
+
+      <h3>Backend</h3>
+
+      <ul class="skill-list">
+
+        <li class="skill-item">Node.js</li>
+
+        <li class="skill-item">Express</li>
+
+        <li class="skill-item">MongoDB</li>
+
+        <li class="skill-item">PostgreSQL</li>
+
+        <li class="skill-item">REST APIs</li>
+
+        <li class="skill-item">GraphQL</li>
+
+      </ul>
+
+    </div>
+
+    <div class="tech-category" tabindex="0" aria-label="Tools and Other Skills">
+
+      <h3>Tools & Others</h3>
+
+      <ul class="skill-list">
+
+        <li class="skill-item">Git / GitHub</li>
+
+        <li class="skill-item">Docker</li>
+
+        <li class="skill-item">Jira</li>
+
+        <li class="skill-item">VS Code</li>
+
+        <li class="skill-item">Jest / Testing</li>
+
+        <li class="skill-item">CI/CD</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- PROJECTS SHOWCASE -->
+
+  <section id="projects" aria-label="Projects Showcase">
+
+    <h2>Projects Showcase</h2>
+
+    <article class="project-card" tabindex="0" aria-labelledby="proj1-title" aria-describedby="proj1-desc">
+
+      <h3 class="project-name" id="proj1-title">Project Alpha</h3>
+
+      <p class="project-description" id="proj1-desc">An innovative platform to streamline team collaboration, built with React and Node.js.</p>
+
+      <div class="project-techstack" aria-label="Tech Stack: React, Node.js, MongoDB">
+
+        <span class="project-tag">React</span>
+
+        <span class="project-tag">Node.js</span>
+
+        <span class="project-tag">MongoDB</span>
+
+      </div>
+
+      <div class="project-links">
+
+        <a href="https://github.com/yourname/project-alpha" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Project Alpha">GitHub</a>
+
+        <a href="https://project-alpha.demo" target="_blank" rel="noopener noreferrer" aria-label="Live demo for Project Alpha">Live Demo</a>
+
+      </div>
+
+    </article>
+
+    <article class="project-card" tabindex="0" aria-labelledby="proj2-title" aria-describedby="proj2-desc">
+
+      <h3 class="project-name" id="proj2-title">Neon Dashboard</h3>
+
+      <p class="project-description" id="proj2-desc">A dark mode dashboard with real-time analytics and futuristic UI leveraging Tailwind CSS and API integrations.</p>
+
+      <div class="project-techstack" aria-label="Tech Stack: Tailwind CSS, React, API">
+
+        <span class="project-tag">Tailwind CSS</span>
+
+        <span class="project-tag">React</span>
+
+        <span class="project-tag">REST API</span>
+
+      </div>
+
+      <div class="project-links">
+
+        <a href="https://github.com/yourname/neon-dashboard" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Neon Dashboard">GitHub</a>
+
+        <a href="https://neon-dashboard.demo" target="_blank" rel="noopener noreferrer" aria-label="Live demo for Neon Dashboard">Live Demo</a>
+
+      </div>
+
+    </article>
+
+    <article class="project-card" tabindex="0" aria-labelledby="proj3-title" aria-describedby="proj3-desc">
+
+      <h3 class="project-name" id="proj3-title">Cosmic Blog</h3>
+
+      <p class="project-description" id="proj3-desc">A content-rich developer blog with markdown support and syntax highlighting, built with Next.js and MDX.</p>
+
+      <div class="project-techstack" aria-label="Tech Stack: Next.js, MDX, CSS Modules">
+
+        <span class="project-tag">Next.js</span>
+
+        <span class="project-tag">MDX</span>
+
+        <span class="project-tag">CSS Modules</span>
+
+      </div>
+
+      <div class="project-links">
+
+        <a href="https://github.com/yourname/cosmic-blog" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Cosmic Blog">GitHub</a>
+
+        <a href="https://cosmic-blog.demo" target="_blank" rel="noopener noreferrer" aria-label="Live demo for Cosmic Blog">Live Demo</a>
+
+      </div>
+
+    </article>
+
+  </section>
+
+
+
+  <!-- RESUME -->
+
+  <section id="resume" aria-label="Resume">
+
+    <h2>Resume</h2>
+
+    <a href="imran's_resume.txt" download="Imran's_Resume.pdf" aria-label="Download Resume PDF">Download Resume</a>
+
+  </section>
+
+
+
+  <!-- CONTACT ME -->
+
+  <section id="contact" aria-label="Contact Me">
+
+    <h2>Contact Me</h2>
+
+    <form id="contactForm" aria-describedby="contactInstructions" novalidate>
+
+      <label for="name" class="sr-only">Name</label>
+
+      <input type="text" id="name" name="name" placeholder="Your Name" required autocomplete="name" aria-required="true" />
+
+      <label for="email" class="sr-only">Email</label>
+
+      <input type="email" id="email" name="email" placeholder="Your Email" required autocomplete="email" aria-required="true" />
+
+      <label for="message" class="sr-only">Message</label>
+
+      <textarea id="message" name="message" placeholder="Your Message" rows="5" required aria-required="true"></textarea>
+
+      <button type="submit" aria-label="Send Message">Send Message</button>
+
+      <div id="formMessage" role="alert" aria-live="polite" style="margin-top: 15px;"></div>
+
+    </form>
+
+    <div class="socials" aria-label="Social Media Links">
+
+      <a href="https://github.com/yourname" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" title="GitHub">&#x1F5C3;</a>
+
+      <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" title="LinkedIn">&#x1F465;</a>
+
+      <a href="mailto:your.email@example.com" aria-label="Send Email" title="Email">&#9993;</a>
+
+    </div>
+
+  </section>
+
+
+
+
+
+ <script src="portfolio.js"></script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
